@@ -15,7 +15,6 @@ const multer = require('multer')
 
 mongoose.connect(process.env.MONGODBADRESS)
 
-
 // Middleware
 
 app.set('view engine', 'ejs')
@@ -57,10 +56,6 @@ const user = new mongoose.Schema({
     image: String,
 
 })
-
-
-
-
 
 // skapar en andvändare med usernamne, password. Passwordet är encrypterat med bcrypt.
 const Users = mongoose.model('users', user)
@@ -123,7 +118,6 @@ app.post("/new", upload.single("image"), (req, res) => {
                     password: password,
                     image: "/upploads/" + req.file.filename, 
                   
-
                 }).then(()=>{
                     res.redirect('/login')
                 }).catch((error)=>{
@@ -196,7 +190,6 @@ app.post('/edit', auth, (req, res) =>{
 })
 
 // Tar bort användare och redirectar till startsidan
-
 app.get('/delete', auth, (req, res) =>{
     Users.findByIdAndDelete(req.cookies.user, (error, data)=>{
         if(error) return error
@@ -210,10 +203,7 @@ app.get('/logout', (req, res) =>{
     res.clearCookie('login').clearCookie('user').redirect('/')
 })
 
-// renderar feed sidan
-
-// 
-
+// skapar en post med andvändarens namn, bild och text. Bilden sparas i upploads mappen och länkas sedan till databasen.
 app.post('/feed', upload.single("image"), (req, res) =>{
     console.log(req.file);
     Users.findById(req.cookies.user, (error, data)=>{
