@@ -1,0 +1,163 @@
+/* Media Querie för Padda. Tablet: Ipad */
+
+@media screen and (max-width: 1024px) and (min-width: 600px){
+    body{
+        text-align: center;
+    }
+    
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    button{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    input{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+    
+    /* Header + secret */
+    
+    #companyLogo img{
+        display: none;
+    }
+    
+    /* make post */
+    
+    #makePost{
+        width: 650px;
+        height: 100%;
+        margin: auto;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    #makePost h1{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 20px;  
+        color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    #makePost input{
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 0 auto;
+        padding: 10px 0px 10px 0px;
+        width: 300px;    
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    #makePost input:focus{
+        outline: none;
+    }
+    
+ 
+    
+    #returnToProfile{
+        width: 650px;
+        height: 100%;
+        margin: auto;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #returnToProfile button{
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 0 auto;
+        padding: 10px;
+        width: 300px;
+        margin-bottom: 10px;    
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #returnToProfile button:hover{
+        background-color: #a2a1a1;
+    }
+    
+    #returnToProfile h1{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 20px;  
+        color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* POST */
+    
+    #post img{
+        max-width: 400px;
+        max-height: 350px;
+        margin: auto;
+        display: block;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        border: 1px solid black;
+    
+    }
+    
+    #post{
+        width: 650px;
+        height: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #f2f2f2;
+        text-align: center;
+    
+    }
+    
+    #post p{
+        text-align: center;
+        background-color: #b4b2b2;
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        padding: 5px;
+        margin: auto;
+        margin-bottom: 10px;
+        width: 600px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow-wrap: break-word;
+    }
+    
+    #post h2{
+        overflow-wrap: break-word;
+        position: absolute;
+        left: auto;
+        margin: 0px;
+        max-width: 170px;
+        background-color: #b4b2b2;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        border-radius: 5px;
+        padding: 5px;
+        
+    }
+}

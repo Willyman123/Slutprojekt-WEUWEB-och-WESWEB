@@ -1,0 +1,43 @@
+/* Media Querie för Padda. Tablet: Ipad */
+
+@media screen and (max-width: 1024px) and (min-width: 600px){
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    button{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    button:hover{
+        cursor: pointer;
+    }
+    
+    body{
+        background-color: white;
+    }
+
+    #companyLogo img{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    #inputsHome{
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        width: 600px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    body{
+        background-color: white;
+        text-align: center
+    }
+
+}

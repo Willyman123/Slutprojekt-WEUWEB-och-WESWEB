@@ -1,0 +1,93 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+body{
+    background-color: white;
+}
+
+/* logo */
+
+#companyLogo img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#companyLogo img:hover{
+    cursor: pointer;
+    border: 3px solid black;
+   
+}
+
+/* login box*/
+
+#loginBox{
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    text-align: center;
+ 
+}
+
+#loginBox h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;  
+    color: blue;   
+}
+
+
+#loginBox button{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;    
+    font-size: 15px;
+    
+    
+}
+
+#loginBox button:hover{
+    background-color: #a2a1a1;
+}
+
+/* inputs */
+
+#loginBox input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
+    width: 300px;
+    margin-bottom: 10px;    
+    font-size: 15px;
+}
+
+
+
+input{
+    text-align: center;
+  
+}
+
+#loginBox input:hover{
+    background-color: #a2a1a1;
+}

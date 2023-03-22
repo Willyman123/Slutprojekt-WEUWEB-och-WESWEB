@@ -1,0 +1,83 @@
+/* globala? */
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#companyLogoHeader img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+body{
+    text-align: center;
+}
+
+#inputs{
+    width: 500px;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+#inputs h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;  
+    color: blue;
+    font-weight: bold;
+
+}
+
+#inputs button{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;    
+    font-size: 15px;
+}
+
+#inputs button:hover{
+    background-color: #a2a1a1;
+}
+
+#inputs input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
+    width: 300px;
+    margin-bottom: 10px;    
+    font-size: 15px;
+}
+
+#inputs input:hover{
+    background-color: #a2a1a1;
+}
+
+#inputs input:focus{
+    background-color: #a2a1a1;
+}
+
+input{
+    text-align: center;
+  
+}

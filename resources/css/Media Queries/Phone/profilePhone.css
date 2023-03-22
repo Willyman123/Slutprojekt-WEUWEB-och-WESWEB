@@ -1,0 +1,56 @@
+/* Media query för telefon Telefon: iPhone 11 Pro */
+
+@media screen and (max-width: 600px) {
+
+    body{
+        text-align: center;
+    }
+    
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    button{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    input{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+
+     
+    input:focus{
+        outline: none;
+
+    }
+    
+    #userBox{
+        display: none;
+    }
+
+    #companyLogo img{
+        display: none;
+    }
+
+    #alternativ{
+        width: 320px;
+        height: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #f2f2f2;
+        text-align: center;
+    }
+
+}

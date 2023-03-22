@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toothbook</title>
+    <link rel="stylesheet" href="/css/profile.css">
+    <link rel="stylesheet" href="/css/Media Queries/Phone/profilePhone.css">
+    <link rel="stylesheet" href="/css/Media Queries/Tablet/profileTablet.css">
+    <link rel="icon" type="image/x-icon" href="/icons/tooth.ico">
+</head>
+<body>
+   
+    <div id="header">
+        <h1> Welcome! </h1>
+    </div>
+
+    <!-- 100% nädvändig. -->
+    <div id="companyLogo">
+     
+        <a href="https://saabklubben-reservdelar.se/"><img src="/img/companylogo.png" alt="companyLogiIMG"></a>
+        
+    </div>
+
+    <br></br>
+
+    <!-- Andvändar info. Bild o Andvändarnamn -->
+    <div id="userBox">
+        <div id="user">
+            <img src="<%= image %>" alt=""> <!-- pfp, gör så man kan ändra -->
+            <h2> <%= data %> </h2> <!-- Andvändarnamn -->
+            
+        </div>
+    </div>
+
+    <!-- Alternativ man har i "feed" -->
+    <div id="alternativ">
+        <h1>Go To Feed</h1>
+        <a href="/feed"><button>FEED</button></a>
+ 
+        <br></br>
+
+        <h1>Edit Profile</h1>
+        <a href="/edit"><button>EDIT</button></a>
+    
+        <br></br>
+
+        <h1>Loggout</h1>
+        <a href="/logout"><button>LOGOUT</button></a>
+    
+        <br></br>
+
+        <h1>Delete Account</h1>
+        <a href="/delete"><button>DELETE</button></a>
+
+    </div>
+    
+    
+</body>
+</html>

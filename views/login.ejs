@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toothbook</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/Media Queries/Phone/loginPhone.css">
+    <link rel="stylesheet" href="/css/Media Queries/Tablet/loginTablet.css">
+    <script src="/js/login.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="/icons/tooth.ico">
+</head>
+<body>
+
+    <div id="companyLogo">
+        <a href="https://saabklubben-reservdelar.se/"><img src="/img/companylogo.png" alt="companylogo"></a>
+    </div>
+
+    <!-- Login box där man skriver in singa uppgifter o laddar upp en bild som sen sparas i "/resources/upploads" -->
+    <div id="loginBox">
+        <h1>Login</h1>
+        <form action="/login" method="post">
+            <input type="text" name="username" id="" placeholder="Username">
+            <input type="password" name="password" id="" placeholder="Password">
+            <input type="submit" value="SEND">
+
+            
+        </form>
+
+        <h1>Go Back</h1>
+        <a href="/"><button>HOME</button></a>
+        <!-- <button id="returnButton">Home</button> Uppdatering, det går fan inte att gå tebak från login delen. har no me eventlistnernen på "login.js"s o "home.js"!!! -->
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+body{
+    background-color: white;
+    text-align: center
+}
+
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#loginBox{
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+
+}
+
+#loginBox button{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;    
+    font-size: 15px;
+    
+
+}
+
+#loginBox button:hover{
+    background-color: #a2a1a1;
+}
+
+#loginBox h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;    
+}
+
+#h1Create{
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+#inputsHome{
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+#inputsHome button{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;    
+    font-size: 15px;
+    
+
+}
+
+
+#inputsHome button:hover{
+    background-color: #a2a1a1;
+}
+
+#inputsHome h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;    
+}
+
+#inputsHome input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
+    width: 300px;
+    margin-bottom: 10px;    
+    font-size: 15px;
+}
+
+#inputsHome input:hover{
+    background-color: #a2a1a1;
+}
+
+input{
+    text-align: center;
+  
+}
+
+
+
+/* Title + Logo */
+
+#companyLogo img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 555px;
+    margin: 10px;
+
+}
+
+#companyLogo img:hover{
+    cursor: pointer;
+    border: 3px solid black;
+   
+}
+
+#companyNameHeader h1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-left: 70px;
+    
+}

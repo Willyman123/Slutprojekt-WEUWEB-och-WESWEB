@@ -1,0 +1,87 @@
+/* Media Querie för Padda. Tablet: Ipad */
+
+@media screen and (max-width: 1024px) and (min-width: 600px){
+
+    body{
+        background-color: white;
+        text-align: center
+    }
+    
+    
+    h1 {
+        color: blue;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+    }
+    
+    button{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    input{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    input:focus{
+        outline: none;
+    }
+
+    #inputsHome{
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        width: 600px;
+        height: 300px;
+        margin-top: 100px;
+    }
+    
+    #inputsHome button{
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 300px;  
+        font-size: 15px;
+        
+    }
+
+    #inputsHome input{
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 300px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    
+
+    #loginBox{
+        background-color: #f2f2f2;  
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 600px;
+        height: 200px;
+        margin-top: 50px;
+    }
+
+    #loginBox h1{
+        font-size: 50px;
+    }
+
+    #loginBox button{
+        width: 300px;
+    }
+
+    #loginBox input{
+        width: 300px;
+    }
+
+    #companyLogo img{
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        top: 10px;
+        left: 220px;
+        
+    }
+}

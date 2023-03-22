@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toothbook</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/Media Queries/Phone/homePhone.css">
+    <link rel="stylesheet" href="/css/Media Queries/Tablet/homeTablet.css">
+    <!-- <script src="/js/login.js" defer></script> -->
+    <link rel="icon" type="image/x-icon" href="/icons/tooth.ico">
+    
+    
+</head> 
+<body>
+
+    <div id="companyNameHeader">
+        <h1>toothbook</h1>
+    </div>
+
+    <!-- 1000% nödvändig länk!!!-->
+    <div id="companyLogo">
+        <a href="https://saabklubben-reservdelar.se/"><img src="/img/companylogo.png" alt="companylogo"></a>
+    </div>
+   
+        <!-- Skapa konto. Andvändarnamn, Lösenord o bild. laddas sen upp i mongoose servern under "users"-->
+        <div id="inputsHome">
+            <h1>Create Account</h1>
+            <form action="/new" method="post" enctype="multipart/form-data">
+                <input type="text" name="username" placeholder="username">
+                <br>
+                <input type="password" id="pass" name="password"  placeholder="password">
+                <br>
+                <input type="file" name="image" id="" placeholder="image">
+                <br>
+
+
+                <a href="/login"><button class="create_Login">CREATE</button></a>
+
+            </form>
+        </div>
+
+    <div id="loginBox">
+
+        <h1>Already Have An Account?</h1> <!-- gör så de är på en rad -->
+        <a href="login"><button>LOGIN</button></a>
+
+    </div>
+
+  
+</body>
+</html>

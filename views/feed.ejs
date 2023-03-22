@@ -1,0 +1,58 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toothbook</title>
+    <link rel="stylesheet" href="/css/feed.css">
+    <link rel="stylesheet" href="/css/Media Queries/Phone/feedPhone.css">
+    <link rel="stylesheet" href="/css/Media Queries/Tablet/feedTablet.css">
+    <link rel="icon" type="image/x-icon" href="/icons/tooth.ico">
+</head>
+<body>
+    <!-- 100% nödvändig länk!!! -->
+    <div id="companyLogo">
+            <a href="https://saabklubben-reservdelar.se/"><img src="/img/companylogo.png" alt="companyLogiIMG"></a>
+        
+    </div>
+
+    <div id="makePost">
+    
+        <!-- Boxen där du skapar ett inlägg. bild + text. -->
+        <h1>Make a Post</h1>
+
+        <!-- Ny post -->
+        <form action="/newPost" method="post" enctype="multipart/form-data">
+            <input type="text" name="post" id="" placeholder="YOUR TEXT">
+            <br></br>
+            <input type="file" name="image" id="" placeholder="IMAGE">
+            <br></br>
+            <input type="submit" value="CREATE">
+        </form>
+
+    </div>  
+
+    <br></br>
+
+    <!-- Returnerar digg till "profile" -->
+    <div id="returnToProfile">  
+
+        <h1>Go To Profile Page</h1>
+        <a href="/profile"><button id="returnButton">PROFILE</button></a>
+
+    </div>
+
+    <br></br>
+
+    <!-- Skickar med allt för posten. Andvändarnamnet, texten o bilden man laddade upp. -->
+    <% data.forEach(e => { %>
+    <div id="post">
+        <h2> <%= e.username %> </h2> 
+        <img src="<%= e.image %>" alt="">
+        <p> <%= e.text %></p>
+    </div>
+    <% }) %>    
+    
+</body>
+</html>
